@@ -1,0 +1,56 @@
+# Dependencias para la práctica de generación de video con Wan 2.1
+# Python >= 3.8 requerido
+
+# Framework de deep learning
+torch>=2.4.0
+torchvision>=0.19.0
+torchaudio>=2.4.0
+
+# Procesamiento de video e imágenes
+opencv-python>=4.8.0
+Pillow>=10.0.0
+imageio>=2.31.0
+imageio-ffmpeg>=0.4.9
+
+# Utilidades de Hugging Face
+huggingface-hub>=0.20.0
+transformers>=4.35.0
+diffusers>=0.24.0
+accelerate>=0.25.0
+safetensors>=0.4.0
+
+# Procesamiento de texto (para T5 encoder)
+sentencepiece>=0.1.99
+protobuf>=4.24.0
+
+# Utilidades generales
+numpy>=1.24.0
+tqdm>=4.66.0
+argparse
+
+# Utilidades para manejo de archivos
+pathlib2>=2.3.7
+
+# Dependencias adicionales para Wan 2.1
+opencv-python>=4.9.0.80
+diffusers>=0.31.0
+transformers>=4.49.0
+tokenizers>=0.20.3
+accelerate>=1.1.1
+easydict
+ftfy
+dashscope
+gradio>=5.0.0
+numpy>=1.23.5,<2
+einops
+decord
+jupyter
+matplotlib
+scipy
+plotly
+
+
+# Opcional: para optimizaciones avanzadas
+# flash_attn  # Instalado separadamente en Dockerfile
+# xfuser>=0.4.1  # Descomentar si se usa multi-GPU con FSDP
+

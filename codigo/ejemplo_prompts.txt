@@ -1,0 +1,124 @@
+# Ejemplos de Prompts para Generación de Video con Wan 2.1
+# ============================================================
+#
+# Este archivo contiene ejemplos estructurados de prompts para generar
+# videos consistentes de un producto en diferentes escenarios.
+#
+# IMPORTANTE: Mantén la descripción base del producto constante en todos
+# los prompts para maximizar la consistencia visual.
+#
+# Estructura recomendada:
+# [Descripción base del producto] + [Contexto del escenario] + [Condiciones] + [Acción]
+#
+
+# ============================================================
+# PRODUCTO: Lata de Refresco "Sparkle"
+# ============================================================
+
+# Descripción base del producto (usar en todos los prompts):
+# "Lata de refresco Sparkle, diseño cilíndrico, color azul brillante (#0066CC),
+# logo 'Sparkle' en letras blancas en el centro, diseño minimalista y moderno"
+
+# ESCENARIO 1: Contexto Deportivo
+# ---------------------------------
+PROMPT_1_DEPORTIVO = "Lata de refresco Sparkle, diseño cilíndrico, color azul brillante (#0066CC), logo 'Sparkle' en letras blancas en el centro, diseño minimalista y moderno. La lata está sobre una mesa en un gimnasio moderno, con equipos de ejercicio de fondo, iluminación fluorescente brillante, ambiente energético y dinámico. La lata rota lentamente sobre la mesa mostrando su diseño completo."
+
+PROMPT_1_DEPORTIVO_ALTERNATIVO = "Lata de refresco Sparkle, cilíndrica, azul brillante, logo blanco 'Sparkle' centrado, diseño minimalista. En contexto de cancha de básquetbol, la lata está sobre un banquillo, con jugadores entrenando al fondo, iluminación natural de ventanas, ambiente deportivo profesional. La lata permanece estática mientras la cámara hace un zoom suave hacia ella."
+
+# ESCENARIO 2: Contexto Doméstico
+# ---------------------------------
+PROMPT_2_DOMESTICO = "Lata de refresco Sparkle, diseño cilíndrico, color azul brillante (#0066CC), logo 'Sparkle' en letras blancas en el centro, diseño minimalista y moderno. La lata está sobre una mesa de cocina moderna, con utensilios de cocina y plantas de fondo, iluminación natural cálida de ventana, ambiente acogedor y familiar. La lata se levanta suavemente y se inclina ligeramente como si fuera levantada."
+
+PROMPT_2_DOMESTICO_ALTERNATIVO = "Lata de refresco Sparkle, cilíndrica, azul brillante, logo blanco 'Sparkle' centrado, diseño minimalista. En mesa de comedor, con platos y servilletas al fondo, iluminación artificial cálida de lámpara colgante, ambiente hogareño relajado. La lata permanece estable mientras la cámara orbita alrededor mostrando todos los ángulos."
+
+# ESCENARIO 3: Contexto Profesional
+# ---------------------------------
+PROMPT_3_PROFESIONAL = "Lata de refresco Sparkle, diseño cilíndrico, color azul brillante (#0066CC), logo 'Sparkle' en letras blancas en el centro, diseño minimalista y moderno. La lata está sobre un escritorio de oficina moderna, con computadora portátil y documentos al fondo, iluminación de techo profesional, ambiente corporativo limpio. La lata rota 360 grados mostrando su etiqueta completa."
+
+PROMPT_3_PROFESIONAL_ALTERNATIVO = "Lata de refresco Sparkle, cilíndrica, azul brillante, logo blanco 'Sparkle' centrado, diseño minimalista. En mesa de reunión de oficina, con sillas y pizarra al fondo, iluminación LED blanca, ambiente profesional y organizado. La lata permanece estática mientras la cámara se acerca lentamente en un movimiento suave."
+
+# ESCENARIO 4: Variación de Iluminación (Día)
+# ---------------------------------------------
+PROMPT_4_DIA = "Lata de refresco Sparkle, diseño cilíndrico, color azul brillante (#0066CC), logo 'Sparkle' en letras blancas en el centro, diseño minimalista y moderno. La lata está sobre una mesa de exterior, con jardín y cielo azul al fondo, iluminación natural brillante del sol del mediodía, sombras suaves y definidas, ambiente al aire libre vibrante. La lata refleja la luz del sol mientras rota lentamente."
+
+# ESCENARIO 5: Variación de Iluminación (Noche)
+# -----------------------------------------------
+PROMPT_5_NOCHE = "Lata de refresco Sparkle, diseño cilíndrico, color azul brillante (#0066CC), logo 'Sparkle' en letras blancas en el centro, diseño minimalista y moderno. La lata está sobre una mesa de exterior, con ciudad iluminada al fondo, iluminación artificial de farolas y luces de la ciudad, ambiente nocturno con contrastes dramáticos, ambiente urbano moderno. La lata se ilumina con las luces de la ciudad mientras permanece estática."
+
+# ESCENARIO 6: Variación de Fondo (Playa)
+# -----------------------------------------
+PROMPT_6_PLAYA = "Lata de refresco Sparkle, diseño cilíndrico, color azul brillante (#0066CC), logo 'Sparkle' en letras blancas en el centro, diseño minimalista y moderno. La lata está sobre una mesa de playa de madera, con arena y mar azul al fondo, iluminación natural brillante de playa, sombras suaves, ambiente relajado y vacacional. La lata tiene gotas de condensación mientras rota mostrando su diseño."
+
+# ESCENARIO 7: Variación de Fondo (Urbano)
+# ------------------------------------------
+PROMPT_7_URBANO = "Lata de refresco Sparkle, diseño cilíndrico, color azul brillante (#0066CC), logo 'Sparkle' en letras blancas en el centro, diseño minimalista y moderno. La lata está sobre una mesa de café en la calle, con edificios modernos y tráfico al fondo, iluminación mixta natural y artificial, ambiente urbano dinámico. La lata permanece estable mientras la vida urbana transcurre al fondo."
+
+# ============================================================
+# PRODUCTO: Teléfono Inteligente "TechPro X"
+# ============================================================
+
+# Descripción base del producto:
+# "Teléfono inteligente TechPro X, pantalla rectangular de 6.5 pulgadas, diseño 
+# minimalista con marco negro mate, logo 'TechPro' en la parte posterior, cámara 
+# dual en la esquina superior izquierda, diseño elegante y moderno"
+
+# ESCENARIO 1: En uso cotidiano
+PROMPT_TECHPRO_1 = "Teléfono inteligente TechPro X, pantalla rectangular de 6.5 pulgadas, diseño minimalista con marco negro mate, logo 'TechPro' en la parte posterior, cámara dual en la esquina superior izquierda, diseño elegante y moderno. El teléfono está sobre una mesa de cocina, con tazas de café al fondo, iluminación natural de ventana, ambiente hogareño. El teléfono rota lentamente mostrando su diseño frontal y posterior."
+
+# ESCENARIO 2: En ambiente profesional
+PROMPT_TECHPRO_2 = "Teléfono inteligente TechPro X, pantalla rectangular de 6.5 pulgadas, diseño minimalista con marco negro mate, logo 'TechPro' en la parte posterior, cámara dual en la esquina superior izquierda, diseño elegante y moderno. El teléfono está sobre un escritorio de oficina, con documentos y computadora al fondo, iluminación LED profesional, ambiente corporativo. El teléfono permanece estático mientras la cámara hace un zoom suave."
+
+# ============================================================
+# CONSEJOS GENERALES
+# ============================================================
+
+# 1. CONSISTENCIA DE DESCRIPCIÓN
+#    - Usa exactamente la misma descripción base del producto en todos los prompts
+#    - Incluye características distintivas: color exacto, forma, tamaño, logo
+#    - Especifica detalles visuales que identifiquen el producto
+
+# 2. VARIACIÓN DE CONTEXTO
+#    - Cambia el escenario y fondo, NO las características del producto
+#    - Describe el contexto de manera clara pero no excesiva
+#    - Mantén el producto como el elemento principal
+
+# 3. ILUMINACIÓN Y ATMÓSFERA
+#    - Especifica condiciones de iluminación para cada escenario
+#    - Describe el ambiente general (energético, relajado, profesional)
+#    - Considera cómo la iluminación afecta la apariencia del producto
+
+# 4. ACCIÓN Y MOVIMIENTO
+#    - Describe el movimiento deseado del producto o de la cámara
+#    - Usa términos específicos: "rota lentamente", "permanece estático", 
+#      "se levanta suavemente"
+#    - Evita movimientos complejos que puedan generar inconsistencias
+
+# 5. LONGITUD DEL PROMPT
+#    - Los prompts más largos y detallados suelen dar mejores resultados
+#    - Balancea detalle con claridad
+#    - Prioriza la descripción del producto sobre el contexto
+
+# 6. PRUEBAS Y AJUSTES
+#    - Experimenta con variaciones del mismo prompt
+#    - Compara resultados para identificar qué funciona mejor
+#    - Documenta los prompts que generan mejores resultados
+
+# ============================================================
+# ESTRUCTURA DE PROMPT RECOMENDADA
+# ============================================================
+
+# [Descripción base del producto (SIEMPRE IGUAL)]
+# + [Ubicación/contexto del escenario]
+# + [Elementos de fondo relevantes]
+# + [Condiciones de iluminación]
+# + [Atmósfera/ambiente]
+# + [Acción o movimiento del producto/cámara]
+
+# Ejemplo completo:
+# "Lata de refresco Sparkle, diseño cilíndrico, color azul brillante (#0066CC), 
+# logo 'Sparkle' en letras blancas en el centro, diseño minimalista y moderno. 
+# La lata está sobre una mesa de oficina moderna, con computadora portátil y 
+# documentos al fondo, iluminación de techo profesional, ambiente corporativo 
+# limpio. La lata rota 360 grados mostrando su etiqueta completa."
+
+

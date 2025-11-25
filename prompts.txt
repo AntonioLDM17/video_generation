@@ -1,0 +1,5 @@
+python codigo/generar_video.py --modo t2v \
+    --prompt "Vídeo publicitario nocturno de una lata de bebida energética GOLDENergy, cilíndrica, dorado metálico brillante (#FFD700), textura reflectante premium y logo negro centrado. La lata está sobre una mesa exterior en una azotea urbana con rascacielos y luces de ciudad bokeh en movimiento. La cámara realiza un travelling suave hacia adelante y luego un ligero movimiento orbital alrededor de la lata. Las luces de neón azules y rosas parpadean en el fondo y se reflejan dinámicamente en la superficie metálica. Pequeña vibración ambiental de ciudad, tráfico borroso al fondo, farolas cálidas y reflejos que cambian a medida que la cámara se desplaza. Atmósfera moderna, cinematográfica y vibrante, profundidad de campo pronunciada y movimiento de luces nocturnas." \
+    --salida resultados/esc5_ciudad_noche.mp4 \
+    --ckpt_dir /app/models/Wan2.1-T2V-1.3B \
+    --offload_model --t5_cpu

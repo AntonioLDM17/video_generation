@@ -30,14 +30,14 @@ mkdir -p /home/202111068/workdata/results
 
 ```bash
 cd /home/202111068/workspace/practicas/video_generation
-docker-compose build
-docker-compose up -d
+docker compose build
+docker compose up -d
 ```
 
 ### 4. Acceder al contenedor
 
 ```bash
-docker-compose exec wan2.1-generator bash
+ docker compose exec wan2.1-antonio bash
 ```
 
 ## Descargar Modelos
@@ -312,31 +312,31 @@ git clone https://github.com/Wan-Video/Wan2.1.git
 ### Ver logs del contenedor
 
 ```bash
-docker-compose logs -f wan2.1-generator
+docker compose logs -f wan2.1-antonio
 ```
 
 ### Detener el contenedor
 
 ```bash
-docker-compose stop
+docker compose stop
 ```
 
 ### Reiniciar el contenedor
 
 ```bash
-docker-compose restart
+docker compose restart
 ```
 
 ### Eliminar el contenedor (mantiene volúmenes)
 
 ```bash
-docker-compose down
+docker compose down
 ```
 
 ### Reconstruir la imagen
 
 ```bash
-docker-compose build --no-cache
+docker compose build --no-cache
 ```
 
 ## Recursos Adicionales

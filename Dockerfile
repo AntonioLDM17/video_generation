@@ -84,5 +84,6 @@ RUN chmod +x /app/docker-entrypoint.sh
 #EXPOSE 8888
 # Set entrypoint
 ENTRYPOINT ["/app/docker-entrypoint.sh"]
+CMD ["bash"]
 
 #CMD ["jupyter", "notebook", "--ip=0.0.0.0", "--port=8888", "--no-browser", "--allow-root"]

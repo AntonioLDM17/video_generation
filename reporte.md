@@ -205,12 +205,12 @@ El modelo necesita repetición literal para fijar la identidad del producto.
 
 ## **3.1. Escenario 1 – Gimnasio (T2V)**
 
-**Video:** 't2v-1.3B_832*480_1_1_V'$'\303\255''deo_publicitario_de_una_lata_de_bebida_energ'$'\303\251''tic_20251125_180828.mp4'
+**Video:** resultados/esc1_gimnasio.mp4
 
 
 ### **Frame 1**
 
-📸 *(Imagen proporcionada)*
+![esc1_frame_1](Escenario_1/frame_1.png)
 
 **Descripción:**
 En este frame el movimiento es visible y la iluminación del gimnasio está bien lograda (luces frías, ambiente industrial). Sin embargo, el logo aparece deformado ("GONLEENgy") y estirado horizontalmente. La parte inferior de la lata tiene una prominencia irregular que no debería existir en un objeto rígido.
@@ -225,7 +225,7 @@ En este frame el movimiento es visible y la iluminación del gimnasio está bien
 
 ### **Frame 2**
 
-📸 *(Imagen proporcionada)*
+![esc1_frame_2](Escenario_1/frame_2.png)
 
 **Descripción:**
 La iluminación se intensifica (foco trasero fuerte), lo que genera un buen reflejo metálico. No obstante, el texto vuelve a cambiar (“GOLLEENEY”), confirmando la falta de consistencia tipográfica. El cuerpo de la lata está descentrado y parece inclinado sobre un eje no físico.
@@ -240,7 +240,7 @@ La iluminación se intensifica (foco trasero fuerte), lo que genera un buen refl
 
 ### **Frame 3**
 
-📸 *(Imagen proporcionada)*
+![esc1_frame_3](Escenario_1/frame_3.png)
 
 **Descripción:**
 En este frame se observa claramente cómo el cuerpo de la lata se deforma con un desplazamiento irregular hacia un lado. El logo vuelve a mutar y su alineación no coincide con la rotación del cilindro.
@@ -263,13 +263,14 @@ La versión mejorada del prompt **sí consiguió aumentar el dinamismo del víde
 
 ## **3.1. Escenario 2 - Cocina Moderna (I2V)**
 
-**Video**: 'i2v-14B_832*480_1_1_Lata_de_bebida_energ'$'\303\251''tica_GOLDENergy,_cil'$'\303\255''ndrica,__20251125_184815.mp4'
+**Video:** resultados/esc2_cocina.mp4
+
 
 El vídeo se ha generado con el modo **I2V 14B** usando como **imagen de referencia** `recursos/goldenergy.png`.
 
 ### Frame 1
 
-📸 *(primer frame de la cocina)*
+![esc2_frame_1](Escenario_2/frame_1.png)
 
 **Descripción:**  
 La lata aparece casi centrada en la imagen, sobre una encimera cálida con fondo ligeramente desenfocado. La iluminación entra desde la derecha simulando una ventana, creando un reflejo vertical suave en el cuerpo de la lata. El color dorado es muy similar al de la imagen de referencia: metálico, uniforme y creíble. Se alcanza a leer con claridad el inicio del logo “GOLD…”, con grosor y estilo de letra coherentes con la referencia.
@@ -284,7 +285,7 @@ La lata aparece casi centrada en la imagen, sobre una encimera cálida con fondo
 
 ### Frame 2
 
-📸 *(segundo frame de la cocina)*
+![esc2_frame_2](Escenario_2/frame_2.png)
 
 **Descripción:**  
 La cámara parece haberse desplazado ligeramente, mostrando la lata más girada hacia la derecha. El logo queda parcialmente fuera de campo, pero la parte visible sigue siendo coherente con la referencia (mismo grosor de trazo, color negro limpio). El fondo muestra claramente la planta y las lamas de la persiana con luz cálida entrando por la ventana.
@@ -299,7 +300,7 @@ La cámara parece haberse desplazado ligeramente, mostrando la lata más girada 
 
 ### Frame 3
 
-📸 *(tercer frame de la cocina)*
+![esc2_frame_3](Escenario_2/frame_3.png)
 
 **Descripción:**  
 La lata aparece de nuevo prácticamente en el mismo punto, pero ahora con un giro suficiente como para que el logo solo se vea parcialmente en el borde derecho. Los reflejos en el metal siguen siendo suaves y creíbles, adaptados a la misma luz cálida de ventana. El entorno (planta verde y persiana) continúa muy estable.
@@ -324,15 +325,13 @@ En resumen, **el uso de referencia I2V equilibra el problema principal del escen
 
 ## **3.1.  Escenario 3 - Oficina (I2V)**
 
-**Video**: 'i2v-14B_832*480_1_1_Lata_de_bebida_energ'$'\303\251''tica_GOLDENergy,_cil'$'\303\255''ndrica,__20251125_190331.mp4'
-
-
+**Video:** resultados/esc3_oficina.mp4
 
 El vídeo se ha generado con el modo **I2V 14B** usando como **imagen de referencia** la misma `recursos/goldenergy.png` que en el escenario 2.
 
 ### Frame 1
 
-📸 *(primer frame oficina – imagen base)*
+![esc3_frame_1](Escenario_3/frame_1.png)
 
 **Descripción:**
 El primer frame es prácticamente **idéntico a la imagen de referencia**: fondo gris neutro, lata completamente centrada, proporciones perfectas y logo “GOLDENERGY” perfectamente legible. No hay todavía elementos de oficina ni portátil; visualmente parece una foto de estudio del producto.
@@ -348,7 +347,7 @@ El primer frame es prácticamente **idéntico a la imagen de referencia**: fondo
 
 ### Frame 2
 
-📸 *(segundo frame oficina – aparece el portátil)*
+![esc3_frame_2](Escenario_3/frame_2.png)
 
 **Descripción:**
 En el segundo frame ya se aprecia el entorno de oficina: detrás de la lata se ve claramente un **portátil abierto** con pantalla azulada y teclado desenfocado. La lata sigue ocupando el centro de la composición, con el logo “GOLDENERGY” perfectamente legible. La luz principal ahora parece provenir de la pantalla del portátil, generando un **brillo frío** que se refleja en el metal dorado.
@@ -364,7 +363,7 @@ En el segundo frame ya se aprecia el entorno de oficina: detrás de la lata se v
 
 ### Frame 3
 
-📸 *(tercer frame oficina – evolución de la luz)*
+![esc3_frame_3](Escenario_3/frame_3.png)
 
 **Descripción:**
 En el tercer frame el encuadre es muy similar al segundo, pero se aprecia que el **portátil se ha abierto más** y la luz de la pantalla es algo más intensa. El fondo azul se vuelve más uniforme y brillante, y esto se traduce en un cambio sutil en los **reflejos del metal dorado**: la zona central de la lata refleja más luz, generando un highlight más fuerte. La lat a sigue frontal, sin cambios apreciables de posición.
@@ -407,13 +406,14 @@ En resumen, el escenario 3 demuestra que **I2V es muy adecuado para anuncios don
 
 ## **3.1.  Escenario 4 - Terraza Exterior Día (T2V)**
 
-**Video**: 't2v-1.3B_832*480_1_1_V'$'\303\255''deo_publicitario_din'$'\303\241''mico_de_una_lata_de_bebida__20251125_191957.mp4'
+**Video:** resultados/esc4_terraza_dia.mp4
+
 
 El vídeo se ha generado con el modo **T2V 1.3B** usando únicamente texto, sin imagen de referencia. El objetivo era conseguir un plano más dinámico en una terraza soleada, con movimiento tanto en la cámara como en el entorno (plantas, iluminación).
 
 ### Frame 1
 
-📸 *(primer frame terraza)*
+![esc4_frame_1](Escenario_4/frame_1.png)
 
 **Descripción:**  
 La lata aparece en el centro de la imagen, sobre una mesa brillante en una terraza rodeada de plantas verdes. El cielo es muy azul y el sol entra desde la izquierda con un reflejo muy fuerte en la superficie metálica. El texto del logo no es exactamente “GOLDENergy”, sino algo similar a “GOLNENDN”, claramente incorrecto. Aun así, mantiene una franja negra ovalada rodeando la lata que recuerda a la banda del logo.
@@ -428,7 +428,7 @@ La lata aparece en el centro de la imagen, sobre una mesa brillante en una terra
 
 ### Frame 2
 
-📸 *(segundo frame terraza)*
+![esc4_frame_2](Escenario_4/frame_2.png)
 
 **Descripción:**  
 La cámara se ha desplazado ligeramente hacia la izquierda y las plantas del fondo han cambiado de posición, reforzando la sensación de movimiento. La lata sigue centrada, pero ahora se aprecia mejor la banda del logo, que sigue leyendo algo parecido a “GOLNENDN”. La luz del sol crea nuevos reflejos verticales en el cuerpo de la lata, diferentes a los del frame 1.
@@ -443,7 +443,7 @@ La cámara se ha desplazado ligeramente hacia la izquierda y las plantas del fon
 
 ### Frame 3
 
-📸 *(tercer frame terraza)*
+![esc4_frame_3](Escenario_4/frame_3.png)
 
 **Descripción:**  
 En el último frame la lata sigue en la misma mesa, pero ahora más desplazada hacia la derecha dentro del encuadre: se ve mucho más cielo azul a la izquierda y un bloque de plantas más denso a la derecha. El brillo del metal cambia otra vez: aparecen reflejos más anchos y el contorno de la lata se ve ligeramente más estrecho. El logo sigue siendo ilegible como marca real, pero conserva la misma estructura general que en los frames anteriores.
@@ -477,14 +477,13 @@ En resumen, el escenario 4 demuestra que **T2V es bueno generando escenas dinám
 
 ## **3.1.  Escenario 5 - Ciudad Nocturna (T2V)**
 
-**Video**: 't2v-1.3B_832*480_1_1_V'$'\303\255''deo_publicitario_nocturno_de_una_lata_de_bebida__20251125_193151.mp4'
-
+**Video:** resultados/esc5_ciudad_noche.mp4
 
 El vídeo se ha generado con el modo **T2V 1.3B** usando solo texto. El objetivo era obtener una escena urbana nocturna dinámica, con tráfico y luces de neón reflejadas en la lata GOLDENergy.
 
 ### Frame 1
 
-📸 *(primer frame ciudad noche)*
+![esc5_frame_1](Escenario_5/frame_1.png)
 
 **Descripción:**
 La lata dorada aparece sobre una superficie brillante, ligeramente a la derecha del centro. El fondo muestra una autopista curva con estelas de luces rojas y blancas y edificios iluminados al fondo. El logo no es exactamente “GOLDENergy”, sino algo similar a “GONEeAY/GONEeGY”, claramente incorrecto, pero colocado en la parte inferior de la lata. El dorado es muy intenso y las reflexiones verticales ocupan casi todo el cuerpo del cilindro.
@@ -500,7 +499,7 @@ La lata dorada aparece sobre una superficie brillante, ligeramente a la derecha 
 
 ### Frame 2
 
-📸 *(segundo frame ciudad noche)*
+![esc5_frame_2](Escenario_5/frame_2.png)
 
 **Descripción:**
 La cámara parece haberse desplazado hacia la izquierda y algo hacia atrás: ahora se ve mejor la autopista, incluso se distingue un coche rojo desenfocado en movimiento. La lata parece ligeramente más pequeña y algo más baja en el encuadre, como si hubiera cambiado de escala. El logo sigue siendo ilegible como marca real, pero mantiene una palabra similar a “GONEeGY” con misma posición y estilo general.
@@ -516,7 +515,7 @@ La cámara parece haberse desplazado hacia la izquierda y algo hacia atrás: aho
 
 ### Frame 3
 
-📸 *(tercer frame ciudad noche)*
+![esc5_frame_3](Escenario_5/frame_3.png)
 
 **Descripción:**
 En el último frame la cámara parece haberse desplazado hacia la derecha y un poco más cerca de la lata. La lata vuelve a verse más grande, ocupando más altura en el encuadre. El fondo de ciudad se mantiene con edificios y puntos de luz bokeh, pero las estelas de la autopista ya no son tan protagonistas. El texto del logo sigue siendo incorrecto, pero conserva la misma estructura general de palabra corta en negro en la parte baja del cilindro.
@@ -600,7 +599,7 @@ La consistencia del color dorado metálico varía significativamente entre T2V e
 ---
 
 
-###3 **4.2.2. Consistencia de Forma**
+#### **4.2.2. Consistencia de Forma**
 
 **Análisis:**
 La forma cilíndrica del producto solo es perfectamente conservada en **I2V (Escenarios 2 y 3)**. Con T2V, la geometría es mucho más inestable.
